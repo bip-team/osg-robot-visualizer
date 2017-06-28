@@ -2,7 +2,8 @@ This is a robot visualization tool based on OpenSceneGraph and configurable
 with YAML files. Its key features are simplicity, minimal dependencies, and
 flexibility.
 
-You can see a demo here:
+You can see a demo on YouTube:
+
 [![demo](https://img.youtube.com/vi/X9HEi2JE-CU/0.jpg)](https://www.youtube.com/watch?v=X9HEi2JE-CU)
 
 A scene is described with a YAML file (see '`data_files/hrp4_stairs.yaml`'),
