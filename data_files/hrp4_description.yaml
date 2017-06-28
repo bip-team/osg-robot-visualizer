@@ -1,0 +1,82 @@
+scale: 1.0
+ignore_body_rotation: false
+path_to_meshes: ./meshes/obj/
+
+bodies:
+  - mesh_file: WAIST_LINK.obj
+    name: WAIST_LINK.obj
+
+  - mesh_file: HIP_Y.obj
+    name: R_HIP_Y.obj
+  - mesh_file: CHEST_P.obj
+    name: R_CHEST_P.obj
+  - mesh_file: R_HIP_P.obj
+    name: R_HIP_P.obj
+  - mesh_file: R_KNEE_P.obj
+    name: R_KNEE_P.obj
+  - mesh_file: L_ANKLE_P.obj
+    name: R_ANKLE_P.obj
+  - mesh_file: R_ANKLE_R.obj
+    name: R_ANKLE_R.obj
+
+  - mesh_file: HIP_Y.obj
+    name: L_HIP_Y.obj
+  - mesh_file: CHEST_P.obj
+    name: L_CHEST_P.obj
+  - mesh_file: L_HIP_P.obj
+    name: L_HIP_P.obj
+  - mesh_file: L_KNEE_P.obj
+    name: L_KNEE_P.obj
+  - mesh_file: L_ANKLE_P.obj
+    name: L_ANKLE_P.obj
+  - mesh_file: L_ANKLE_R.obj
+    name: L_ANKLE_R.obj
+
+  - mesh_file: CHEST_R.obj
+    name: CHEST_R.obj
+  - mesh_file: CHEST_Y.obj
+    name: CHEST_Y.obj
+
+  - mesh_file: NECK_Y.obj
+    name: NECK_Y.obj
+  - mesh_file: NECK_P.obj
+    name: NECK_P.obj
+
+  - mesh_file: R_SHOULDER_R.obj
+    name: R_SHOULDER_R.obj
+  - mesh_file: R_SHOULDER_P.obj
+    name: R_SHOULDER_P.obj
+  - mesh_file: SHOULDER_Y.obj
+    name: R_SHOULDER_Y.obj
+  - mesh_file: ELBOW_P.obj
+    name: R_ELBOW_P.obj
+  - mesh_file: R_WRIST_Y.obj
+    name: R_WRIST_Y.obj
+  - mesh_file: R_WRIST_P.obj
+    name: R_WRIST_P.obj
+  - mesh_file: R_WRIST_R.obj
+    name: R_WRIST_R.obj
+  - mesh_file: R_THUMB.obj
+    name: R_THUMB.obj
+
+  - mesh_file: L_SHOULDER_R.obj
+    name: L_SHOULDER_R.obj
+  - mesh_file: L_SHOULDER_P.obj
+    name: L_SHOULDER_P.obj
+  - mesh_file: SHOULDER_Y.obj
+    name: L_SHOULDER_Y.obj
+  - mesh_file: ELBOW_P.obj
+    name: L_ELBOW_P.obj
+  - mesh_file: L_WRIST_Y.obj
+    name: L_WRIST_Y.obj
+  - mesh_file: WRIST_P.obj
+    name: L_WRIST_P.obj
+  - mesh_file: L_WRIST_R.obj
+    name: L_WRIST_R.obj
+  - mesh_file: L_THUMB.obj
+    name: L_THUMB.obj
+
+  - mesh_file: R_FOOT.obj
+    name: R_FOOT.obj
+  - mesh_file: L_FOOT.obj
+    name: L_FOOT.obj

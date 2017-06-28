@@ -1,0 +1,164 @@
+enable_screenshots:         false
+screenshot_filename_prefix: ../video_output/hrp4_stairs_
+background_color:           [0., 0., 0.2, 0.0]
+
+robots:
+  - name:           hrp4
+    data_file:      hrp4_stairs.dat
+    robot_description: ./hrp4_description.yaml
+
+camera:
+    look_from: [-2, -5., 3]
+    look_at: [1, 0, 0.5]
+    up: [0, 0, 1]
+
+
+shapes:
+# stairs
+  - type: box
+    width: [0.5, 1, 0.16]
+    position: [ 0.4, 0., 0.08]
+    rpy: [0, 0, 0]
+    color: [0.2, 1, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: box
+    width: [0.5, 1, 0.32]
+    position: [ 0.9, 0., 0.16]
+    rpy: [0, 0, 0]
+    color: [0.3, 1, 0.3, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: box
+    width: [0.25, 1, 0.32]
+    position: [ 1.25, 0., 0.16]
+    rpy: [0, 0, 0]
+    color: [0.3, 1, 0.3, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: box
+    width: [0.25, 1, 0.24]
+    position: [ 1.5, 0., 0.12]
+    rpy: [0, 0, 0]
+    color: [0.2, 1, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: box
+    width: [0.25, 1, 0.16]
+    position: [ 1.75, 0., 0.08]
+    rpy: [0, 0, 0]
+    color: [0.3, 1, 0.3, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: box
+    width: [0.25, 1, 0.08]
+    position: [ 2.0, 0., 0.04]
+    rpy: [0, 0, 0]
+    color: [0.2, 1, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+# supports
+  - type: sphere
+    radius: 0.02
+    position: [0.68, -0.33, 1]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: cylinder
+    radius: 0.015
+    length: 1.0
+    position: [0.68, -0.33, 0.5]
+    rpy: [0, 0, 0]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: arrow
+    position: [0.68, -0.33, 1]
+    vector: hrp4_stairs_force_right1.dat
+    vector_normalize: 1
+    color: [0.8, 0.8, 0.0, 1]
+    first_iter: 861
+    last_iter: 979
+
+
+  - type: sphere
+    radius: 0.02
+    position: [0.68,  0.33, 1]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: cylinder
+    radius: 0.015
+    length: 1.0
+    position: [0.68,  0.33, 0.5]
+    rpy: [0, 0, 0]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: arrow
+    position: [0.68, 0.33, 1]
+    vector: hrp4_stairs_force_left1.dat
+    vector_normalize: 1
+    color: [0.8, 0.8, 0.0, 1]
+    first_iter: 861
+    last_iter: 979
+
+
+  - type: sphere
+    radius: 0.02
+    position: [1.64, -0.33, 0.97]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: cylinder
+    radius: 0.015
+    length: 0.97
+    position: [1.64, -0.33, 0.485]
+    rpy: [0, 0, 0]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: arrow
+    position: [1.64, -0.33, 0.97]
+    vector: hrp4_stairs_force_right2.dat
+    vector_normalize: 1
+    color: [0.8, 0.8, 0.0, 1]
+    first_iter: 2161
+    last_iter: 2279
+
+
+  - type: sphere
+    radius: 0.02
+    position: [1.64,  0.33, 0.97]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: cylinder
+    radius: 0.015
+    length: 0.97
+    position: [1.64,  0.33, 0.485]
+    rpy: [0, 0, 0]
+    color: [1, 0.2, 0.2, 1]
+    first_iter: 0
+    last_iter: -1
+
+  - type: arrow
+    position: [1.64,  0.33, 0.97]
+    vector: hrp4_stairs_force_left2.dat
+    vector_normalize: 1
+    color: [0.8, 0.8, 0.0, 1]
+    first_iter: 2161
+    last_iter: 2279
