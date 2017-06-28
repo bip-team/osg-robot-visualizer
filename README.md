@@ -30,5 +30,5 @@ data file line by line: each line must contain poses of all bodies in the same
 order as they are defined.
 
 Note: The tool was tested with OpenSceneGraph version which has no support for
-COLLADA (*.dae) files. COLLADA files can be converted to WaveFront (*.obj)
-format using '`util/dae_to_obj.py`' script.
+COLLADA (.dae) files. COLLADA files can be converted to WaveFront (.obj) format
+using '`util/dae_to_obj.py`' script.
